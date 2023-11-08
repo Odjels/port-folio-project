@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOJ-Fashion- website</title>
+</head>
+<body>
+    <!-- Header Bar with Navigation Links -->
+    <header>
+        <nav>
+            <ul>
+                 <li class="active"><a href="{{ url_for('home_page') }}">Home</a></li>
+                 <li><a href="{{ url_for('about_page') }}">About Us</a>
+                 <li><a href="{{ url_for('product_page') }}">Shop</a></li>
+                 <!-- <li><a href="./blog.html">Blog</a></li> -->
+                 <li><a href="{{ url_for('contact_page') }}">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <!-- Large Cover Image -->
+        <img src="../../static/upoads/project-cover.jpg" alt="Project Cover Image">
+
+        <!-- Project Name -->
+        <h1>HOJ_Fashion</h1>
+
+        
+        <p>A This is a Fashion website where clothes can be ordered.</p>
+
+        <!-- Button to Navigate to Deployed Project Application -->
+        <a href="https://yourprojecturl.com" class="btn">View Project</a>
+    </section>
+
+    <!-- Section 1 -->
+    <section class="hero">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__items set-bg" data-setbg="../../static/root/img/hero/hero-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-7 col-md-8">
+                            <div class="hero__text">
+                                <h6>Naija Collection</h6>
+                                <h2>Christmas Collections 2023</h2>
+                                <p>Lovely luxury Attires. Ethically crafted with an unwavering
+                                commitment to exceptional quality.</p>
+                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
+                                <div class="hero__social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__items set-bg" data-setbg="../../static/root/img/hero/hero-2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-7 col-md-8">
+                            <div class="hero__text">
+                                <h6>Niaja Collection</h6>
+                                <h2>Christmas Collections 2023</h2>
+                                <p>Lovely luxury AttireS. Ethically crafted with an unwavering
+                                commitment to exceptional quality.</p>
+                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
+                                <div class="hero__social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- Banner Section Begin -->
+     <section class="banner spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 offset-lg-4">
+                    <div class="banner__item">
+                        <div class="banner__item__pic">
+                            <img src="../../static/root/img/banner/banner-1.jpg" alt="">
+                        </div>
+                        <div class="banner__item__text">
+                            <h2>Boss Collections 2023</h2>
+                            <a href="#">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="banner__item banner__item--middle">
+                        <div class="banner__item__pic">
+                            <img src="../../static/root/img/banner/banner-2.jpg" alt="">
+                        </div>
+                        <div class="banner__item__text">
+                            <h2>Male wears</h2>
+                            <a href="#">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="banner__item banner__item--last">
+                        <div class="banner__item__pic">
+                            <img src="../../static/root/img/banner/banner-3.jpg" alt="">
+                        </div>
+                        <div class="banner__item__text">
+                            <h2>African custume 2023</h2>
+                            <a href="#">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature sections as needed -->
+    <section>
+        <h3>User Reviews and Ratings</h3>
+        <p>
+            Don't shop blindly; hear what our customers have to say. Explore user reviews and ratings for each product, 
+            providing you with valuable insights into the quality, 
+            fit, and style. Join a fashion community that shares feedback and tips.
+        </p>
+    </section>
+
+      <section>
+        <h2>About Us</h2>
+          <h3>Our Story</h3>
+        <p>
+           At HOJ_fashon, fashion isn't just a business; it's our passion,
+            and it all started with a dream. The inspiration for this project was born from a deep love 
+            for fashion and a desire to make the shopping experience more personal, convenient, and enjoyable.
+        </p>
+        <p>
+            Our journey began when we started making clothes in school and alot of people loved them.
+            As a individual of passionate fashion enthusiast and aspiring web developer, 
+            this project was embarked on to create a unique platform that would redefine how people explore 
+            and shop for clothing. Every line of code, design element, and feature has been carefully crafted to
+            make fashion more accessible and fun.</p>
+
+        <p>
+          This project is part of our learning journey at ALX Africa School, 
+          where we have honed our technical skills and learned to apply them to real-world projects. 
+          We are excited to present our fashion website as a Portfolio Project for ALX Africa, 
+          showcasing our dedication and growth in the world of web development.
+          [Include a link to the Holberton School portfolio project page.]</p>
+        </P>
+    </section>
+
+    
+    <h2>Meet Me</h2>
+     <a href="https://github.com/Odjels">Osajele Odegua</a>
+
+    
+     <h2>Project Repository</h2>
+    <p>
+       Explore our project's code and contribute to its development on GitHub.
+       <a href="https://github.com/Odjels/House-Of-Jele-Fashion">Project Repository lnk</a> 
+    </p>
+    
+</body>
+</html>
